@@ -8,10 +8,11 @@ public class FleetOfCars {
     }
 
     public int getTotalRegistrationsFeeForFleet() {
-        double sum = 0.0;
+        int sum = 0;
         for (Car car : fleet) {
-            sum += car.getRegistrationsFee();
+            sum += car.getRegistrationFee();
         }
+        return sum;
     }
 
     @Override
