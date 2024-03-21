@@ -4,6 +4,13 @@ public abstract class ACar implements Car{
     String model;
     int numberOfDoors;
 
+    ACar(String make, String model, int numberOfDoors, String registrationNumber) {
+        this.registrationNumber = registrationNumber;
+        this.make = make;
+        this.model = model;
+        this.numberOfDoors = numberOfDoors;
+    }
+
     public String getRegistrationNumber() {
         return registrationNumber;
     }
@@ -37,11 +44,8 @@ public abstract class ACar implements Car{
 
     @Override
     public String toString() {
-        return "ACar{" +
-                "registrationNumber='" + registrationNumber + '\'' +
-                ", make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", numberOfDoors=" + numberOfDoors +
-                '}';
+        return registrationNumber + '\t' +
+                 make + ',' + model +
+                ", " + numberOfDoors + "-dørs ";
     }
 }

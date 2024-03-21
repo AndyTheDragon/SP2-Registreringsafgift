@@ -17,8 +17,11 @@ public class FleetOfCars {
 
     @Override
     public String toString() {
-        return "FleetOfCars{" +
-                "fleet=" + fleet +
-                '}';
+        String output = "";
+        for (Car car : fleet) {
+            output += car.toString() + "\n";
+        }
+        output += "\t Total antal biler: " + fleet.size() +" biler \t" + getTotalRegistrationsFeeForFleet();
+        return output;
     }
 }

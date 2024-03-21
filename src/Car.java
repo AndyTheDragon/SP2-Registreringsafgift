@@ -4,4 +4,5 @@ public interface Car {
     public String getModel();
     public int getNumberOfDoors();
     public int getRegistrationFee();
+
 }
