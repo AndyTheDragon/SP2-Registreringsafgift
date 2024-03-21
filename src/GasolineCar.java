@@ -10,6 +10,18 @@ public class GasolineCar extends AFuelCar{
     }
 
     @Override
+    public String toCSV(){
+        return getRegistrationNumber() +
+                ", " + getMake() +
+                ", " + getModel() +
+                ", " + getNumberOfDoors() +
+                ", " + getKmPrLitre() +
+                ", " + //hasParticleFilter() +
+                ", " + //BatterySize
+                ", "; //Range
+    }
+
+    @Override
     public String getFuelType() {
         return "Gasoline";
     }
@@ -17,6 +29,7 @@ public class GasolineCar extends AFuelCar{
     @Override
     public String toString() {
         return super.toString() +
-                "\t" + this.getRegistrationFee();
+                ", " + this.getRegistrationFee();
     }
+
 }

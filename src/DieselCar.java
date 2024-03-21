@@ -41,7 +41,18 @@ public class DieselCar extends AFuelCar{
     @Override
     public String toString() {
         return super.toString() +
-                ", particleFilter=" + particleFilter +
-                "\t" + this.getRegistrationFee();
+                ", " + (particleFilter ? "Has" : "No") + " particle filter" +
+                ", " + this.getRegistrationFee();
+    }
+    @Override
+    public String toCSV(){
+        return getRegistrationNumber() +
+                ", " + getMake() +
+                ", " + getModel() +
+                ", " + getNumberOfDoors() +
+                ", " + getKmPrLitre() +
+                ", " + hasParticleFilter() +
+                ", " + //BatterySize
+                ", "; //Range
     }
 }

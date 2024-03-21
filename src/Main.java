@@ -1,5 +1,8 @@
+import util.FileIO;
+
 public class Main {
     public static void main(String[] args) {
+
         FleetOfCars fleet = new FleetOfCars();
         fleet.addCar(new DieselCar("Audi", "Q4", 5
                 , "CV66586", 18, true));
@@ -12,6 +15,9 @@ public class Main {
         fleet.addCar(new ElectricCar("VW", "ID-4", 5
                     , "BZ14225", 44, 400));
         System.out.println(fleet);
+        fleet.saveFleetToFile();
+
+
 
 
     }

@@ -44,8 +44,9 @@ public abstract class ACar implements Car{
 
     @Override
     public String toString() {
-        return registrationNumber + '\t' +
-                 make + ',' + model +
+        return registrationNumber + ", " +
+                 make + ", " + model +
                 ", " + numberOfDoors + "-dørs";
     }
+
 }

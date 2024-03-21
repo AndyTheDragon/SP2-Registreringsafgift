@@ -4,13 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cbe1c88-8dd3-4458-93a3-9c918501532b" name="Changes" comment="Added FleetOfCars and started testing">
+    <list default="true" id="7cbe1c88-8dd3-4458-93a3-9c918501532b" name="Changes" comment="Assignment completed with minimal working solution.">
+      <change afterPath="$PROJECT_DIR$/data/cars.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/FileIO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ACar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ACar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AFuelCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AFuelCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DieselCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DieselCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ElectricCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectricCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/FleetOfCars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FleetOfCars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GasolineCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GasolineCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,6 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
-    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -53,6 +57,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -60,6 +65,15 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="SP2-Registreringsafgift" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -76,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710932625740</updated>
-      <workItem from="1710932626780" duration="15946000" />
+      <workItem from="1710932626780" duration="22600000" />
     </task>
     <task id="LOCAL-00001" summary="Create project frame">
       <option name="closed" value="true" />
@@ -110,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711015199077</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Assignment completed with minimal working solution.">
+      <option name="closed" value="true" />
+      <created>1711019505916</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711019505918</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +142,7 @@
     <MESSAGE value="Create project frame" />
     <MESSAGE value="Finish the frame, all classes created" />
     <MESSAGE value="Added FleetOfCars and started testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added FleetOfCars and started testing" />
+    <MESSAGE value="Assignment completed with minimal working solution." />
+    <option name="LAST_COMMIT_MESSAGE" value="Assignment completed with minimal working solution." />
   </component>
 </project>
