@@ -1,11 +1,11 @@
 public class ElectricCar extends ACar{
-    private int batteryCapacity;
-    private int maxRange;
+    private int batteryCapacity; //kWh
+    private int maxRange; //km
 
     ElectricCar(String make, String model, int numberOfDoors, String registrationNumber,int battery, int range) {
         super(make, model, numberOfDoors, registrationNumber);
-        this.batteryCapacity = battery;
-        this.maxRange = range;
+        this.batteryCapacity = battery; //kWh
+        this.maxRange = range; //km
     }
 
     public int getBatteryCapacityKWh() {
@@ -15,7 +15,7 @@ public class ElectricCar extends ACar{
         return maxRange;
     }
     public int getWhPrKm() {
-        return this.batteryCapacity/this.maxRange;
+        return (this.batteryCapacity*1000)/this.maxRange;
     }
 
     @Override

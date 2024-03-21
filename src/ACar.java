@@ -46,6 +46,6 @@ public abstract class ACar implements Car{
     public String toString() {
         return registrationNumber + '\t' +
                  make + ',' + model +
-                ", " + numberOfDoors + "-dørs ";
+                ", " + numberOfDoors + "-dørs";
     }
 }
