@@ -19,6 +19,21 @@ public abstract class ACar implements Car{
     public int getNumberOfDoors() {
         return numberOfDoors;
     }
+    public int calculateRegistrationFee(int kmPrL) {
+        if (kmPrL<5) {
+            return 10470;
+        }
+        else if(kmPrL<10) {
+            return 5500;
+        }
+        else if (kmPrL<15) {
+            return 2340;
+        }
+        else if (kmPrL<20) {
+            return 1050;
+        }
+        return 330;
+    }
 
     @Override
     public String toString() {
